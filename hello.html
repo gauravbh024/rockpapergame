@@ -1,0 +1,56 @@
+<!-- Write code below 💖-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Galaxy</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      <link rel="stylesheet" href="hello.css">
+       <script src="java.js"></script>
+</head>
+<body>
+    <canvas id="space-canvas"></canvas>
+    <canvas id="fireworks-canvas"></canvas>
+    
+    <div class="game-container">
+        <h1 class="title">Rock Paper Scissors Galaxy</h1>
+        
+        <div class="score-board">
+            <div class="score">You: <span id="player-score">0</span></div>
+            <div class="score">Computer: <span id="computer-score">0</span></div>
+        </div>
+        
+        <div class="game-area">
+            <div class="player-area">
+                <h2>Your Choice</h2>
+                <div id="player-choice" style="font-size: 4rem; min-height: 100px; display: flex; align-items: center;"></div>
+            </div>
+            
+            <div class="vs">VS</div>
+            
+            <div class="computer-area">
+                <h2>Computer's Choice</h2>
+                <div class="computer-choice">
+                    <div class="card-inner" id="card-inner">
+                        <div class="card-front">?</div>
+                        <div class="card-back" id="computer-choice"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="options">
+            <div class="option" id="rock">🪨</div>
+            <div class="option" id="paper">📄</div>
+            <div class="option" id="scissors">✂️</div>
+        </div>
+        
+        <div class="result" id="result"></div>
+    </div>
+    
+    <script>    
+    </script>
+    
+</body>
+</html>
